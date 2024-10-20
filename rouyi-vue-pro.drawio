@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="JhMUBH9sq0BLtiTWMzek">
-    <mxGraphModel dx="1227" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,62 @@
         </mxCell>
         <mxCell id="XZPCSpWJF6Tx8EN4Xs06-65" value="登录操作时序图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="30" y="-1135" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-66" target="XZPCSpWJF6Tx8EN4Xs06-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-66" value="用户登录开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-67" value="提交登录信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-71" value="账号存在？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-73" value="密码正确？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-74" target="XZPCSpWJF6Tx8EN4Xs06-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-74" value="账号禁用？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-71" target="XZPCSpWJF6Tx8EN4Xs06-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-73" target="XZPCSpWJF6Tx8EN4Xs06-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-77" value="验证码正确？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-77" target="XZPCSpWJF6Tx8EN4Xs06-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-80" target="XZPCSpWJF6Tx8EN4Xs06-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-80" value="插入登录日志" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XZPCSpWJF6Tx8EN4Xs06-82" target="XZPCSpWJF6Tx8EN4Xs06-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-82" value="生成令牌" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-84" value="简化令牌，返回" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XZPCSpWJF6Tx8EN4Xs06-86" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="555" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
