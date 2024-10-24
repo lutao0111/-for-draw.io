@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-235" value="MES" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="290" y="1770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-241" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6QF6XNmBkioUWHS-vhsG-235">
+          <mxGeometry x="45" y="116" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="6QF6XNmBkioUWHS-vhsG-93" value="上位机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="70" y="120" width="100" height="300" as="geometry" />
         </mxCell>
@@ -248,14 +254,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6QF6XNmBkioUWHS-vhsG-210" value="Mes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-210" value="MES" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="250" y="1380" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="6QF6XNmBkioUWHS-vhsG-211" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6QF6XNmBkioUWHS-vhsG-210">
           <mxGeometry x="45" y="60" width="10" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="6QF6XNmBkioUWHS-vhsG-219" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6QF6XNmBkioUWHS-vhsG-210">
-          <mxGeometry x="-134" y="170" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6QF6XNmBkioUWHS-vhsG-215" value="1.扫描合格物料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="139" y="1448" width="100" height="30" as="geometry" />
@@ -302,6 +305,32 @@
         </mxCell>
         <mxCell id="6QF6XNmBkioUWHS-vhsG-232" value="4. 向SAP提交物料报工信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="379" y="1548" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-234" value="PDA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="70" y="1770" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-237" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6QF6XNmBkioUWHS-vhsG-234">
+          <mxGeometry x="45" y="60" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="6QF6XNmBkioUWHS-vhsG-234" source="6QF6XNmBkioUWHS-vhsG-237" target="6QF6XNmBkioUWHS-vhsG-237">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="65" />
+              <mxPoint x="110" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="6QF6XNmBkioUWHS-vhsG-234">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="132" as="sourcePoint" />
+            <mxPoint x="265" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-239" value="1. 检测到不合格产品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1838" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6QF6XNmBkioUWHS-vhsG-244" value="2. 记录出库信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1878" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
